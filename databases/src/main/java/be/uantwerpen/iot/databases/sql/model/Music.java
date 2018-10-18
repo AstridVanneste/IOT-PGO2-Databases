@@ -1,4 +1,4 @@
-package java.be.uantwerpen.iot.databases.sql.model;
+package be.uantwerpen.iot.databases.sql.model;
 
 public class Music
 {
