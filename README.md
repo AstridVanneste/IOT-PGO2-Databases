@@ -2,7 +2,7 @@
 
 ## Muziek Database (SQL)
 
-- MySQL Server
+Current state of the SQL Database: **DOWN**
 
 The SQL database is set up in such a way that no incomplete rows can be inserted, when adding a new row, every field needs to be present (except for the \_ID field, this will be determined by the SQL server).
 
@@ -32,7 +32,6 @@ Combinations of these two are possible, the 'featuring' operator takes precenden
 [Promises, By Calvin Harris & Sam Smith](https://www.ultratop.be/nl/song/1b4a55/Calvin-Harris-&-Sam-Smith-Promises): "Calvin Harris,Sam Smith"  
 [Spiegel, By Tourist LeMC ft. Raymond Van Het Groenewoud](https://www.ultratop.be/nl/song/1b7d65/Tourist-LeMC-feat.-Raymond-van-het-Groenewoud-Spiegel): "Tourist LeMC+Raymond Van Het Groenewoud"  
 [Electricity, By Silk City & Dua Lipa ft. Diplo & Mark Ronson](https://www.ultratop.be/nl/song/1b5934/Silk-City-&-Dua-Lipa-feat.-Diplo-&-Mark-Ronson-Electricity): "Silk City,Dua Lipa+Diplo,Mark Ronson"  
-
 
 #### YEAR
 This is the year the song was first released.  
