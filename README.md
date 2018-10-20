@@ -3,14 +3,15 @@
 ## Muziek Database (SQL)
 
 Current state of the SQL Database: **DOWN**
-
-The SQL database is set up in such a way that no incomplete rows can be inserted, when adding a new row, every field needs to be present (except for the \_ID field, this will be determined by the SQL server).
+Database Server: [MySQL](https://dev.mysql.com/) (Tutorial on how to connect to MySQL from Spring can be found [here](https://spring.io/guides/gs/accessing-data-mysql/))
 
 ### Schema
 
 | Column       | \_ID   | TITLE        | ARTIST       | YEAR     |
 |:------------ |:------:|:------------:|:------------:|:--------:|
 | **Datatype** | BIGINT | VARCHAR(255) | VARCHAR(255) | INT      |
+
+The SQL database is set up in such a way that no incomplete rows can be inserted, when adding a new row, every field needs to be present (except for the \_ID field, this will be determined by the SQL server).
 
 #### \_ID
 The ID of a song.  
