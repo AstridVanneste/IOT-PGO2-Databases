@@ -39,6 +39,6 @@ db.createCollection("Votes",
                 description: "id of the song"
             }
         },
-        required: [timestamp, value, username, uid, songid]
+        required: ["timestamp", "value", "username", "uid", "songid"]
     }
 });
