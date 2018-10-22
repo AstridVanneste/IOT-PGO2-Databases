@@ -1,6 +1,6 @@
-connection = new Mongo()
+connection = new Mongo();
 
-db = connection.getDB("Votes")
+db = connection.getDB("Votes");
 
 db.createCollection("Votes",
 {
@@ -38,7 +38,7 @@ db.createCollection("Votes",
                 bsonType: "int",
                 description: "id of the song"
             }
-        }
+        },
         required: [timestamp, value, username, uid, songid]
     }
-})
+});
