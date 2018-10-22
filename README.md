@@ -56,6 +56,11 @@ _Parameters_: (Part of) the name of an artist you're looking for.
 - MongoDB
 - Document Database
 
+**Start database on server**
+```
+sudo service mongod start
+```
+
 **Database naam:** Votes  
 **Collection:** Votes  
 **Data:**  
