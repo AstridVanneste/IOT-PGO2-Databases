@@ -7,7 +7,6 @@ db.createCollection("Votes",
     validator:
     {
         bsonType:"object",
-        required: [timestamp, value, username, uid, songid],
         properties:
         {
             timestamp:
@@ -40,5 +39,6 @@ db.createCollection("Votes",
                 description: "id of the song"
             }
         }
+        required: [timestamp, value, username, uid, songid]
     }
 })
