@@ -2,7 +2,7 @@ connection = new Mongo()
 
 db = connection.getDB("Votes")
 
-db.createCollection("Votes"
+db.createCollection("Votes",
 {
     validator:
     {
@@ -16,30 +16,29 @@ db.createCollection("Votes"
                 description: "Time when the vote was made"
             },
 
-            value
+            value:
             {
                 bsonType: "int",
                 description: "+1 for upvote, -1 for downvote"
             },
 
-            username
+            username:
             {
                 bsonType: "string",
                 description: "username of the user"
             },
 
-            uid
+            uid:
             {
                 bsonType: "string",
                 description: "id of the user"
             },
 
-            songid
+            songid:
             {
                 bsonType: "int",
                 description: "id of the song"
             }
         }
     }
-
 })
