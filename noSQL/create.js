@@ -1,13 +1,12 @@
-connection = new Mongo()
+connection = new Mongo();
 
-db = connection.getDB("Votes")
+db = connection.getDB("Votes");
 
 db.createCollection("Votes",
 {
     validator:
     {
         bsonType:"object",
-        required: [timestamp, value, username, uid, songid],
         properties:
         {
             timestamp:
@@ -39,6 +38,7 @@ db.createCollection("Votes",
                 bsonType: "int",
                 description: "id of the song"
             }
-        }
+        },
+        required: [timestamp, value, username, uid, songid]
     }
-})
+});
