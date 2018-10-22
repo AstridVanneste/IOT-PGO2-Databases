@@ -59,6 +59,7 @@ _Parameters_: (Part of) the name of an artist you're looking for.
 **Database naam:** Votes  
 **Collection:** Votes  
 **Data:**  
+```
 {  
   'song_id': ID that refers to entry in SQL Music Database  
   'timestamp_start'  
@@ -72,4 +73,5 @@ _Parameters_: (Part of) the name of an artist you're looking for.
       }  
    ]  
 }
+```
 
