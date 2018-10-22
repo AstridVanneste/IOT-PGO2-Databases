@@ -60,11 +60,12 @@ _Parameters_: (Part of) the name of an artist you're looking for.
 **Collection:** Votes  
 **Data:**  
 ```
-{  
-  'song_id': ID that refers to entry in SQL Music Database  
-  'user_id'  
-  'timestamp'  
+{ 
+  'timestamp'
   'up/down'  
+  'username'
+  'user_id' 
+  'song_id'
 }
 ```
 
