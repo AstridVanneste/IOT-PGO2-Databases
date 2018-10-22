@@ -2,8 +2,8 @@
 
 ## Muziek Database (SQL)
 
-Current state of the SQL Database: **DOWN**
-Database Server: [MySQL](https://dev.mysql.com/) (Tutorial on how to connect to MySQL from Spring can be found [here](https://spring.io/guides/gs/accessing-data-mysql/))
+Current state of the SQL Database: **DOWN**  
+Database Server: [MySQL](https://dev.mysql.com/) (Tutorial on how to connect to MySQL from Spring can be found [here](https://spring.io/guides/gs/accessing-data-mysql/))  
 
 ### Schema
 
