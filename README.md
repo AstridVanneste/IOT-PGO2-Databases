@@ -62,7 +62,7 @@ _Parameters_: (Part of) the name of an artist you're looking for.
 ```
 { 
   'timestamp'
-  'up/down'  
+  'value'  
   'username'
   'uid' 
   'songid'
