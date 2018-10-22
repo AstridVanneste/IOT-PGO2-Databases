@@ -64,8 +64,8 @@ _Parameters_: (Part of) the name of an artist you're looking for.
   'timestamp'
   'up/down'  
   'username'
-  'user_id' 
-  'song_id'
+  'uid' 
+  'songid'
 }
 ```
 
