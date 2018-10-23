@@ -81,4 +81,4 @@ security:
   authorization: "enabled"
 ```
 
-- [ ] Setup authentication (through create.js setup file)
+- [ ] Setup authentication (through admin.js and users.js setup file) ([link](https://medium.com/mongoaudit/how-to-enable-authentication-on-mongodb-b9e8a924efac))
