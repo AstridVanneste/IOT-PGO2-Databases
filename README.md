@@ -74,3 +74,11 @@ sudo service mongod start
 }
 ```
 
+**TODO**
+- [ ] Setup authentication (in /etc/mongod.conf)
+```
+security:
+  authorization: "enabled"
+```
+
+- [ ] Setup authentication (through create.js setup file)
