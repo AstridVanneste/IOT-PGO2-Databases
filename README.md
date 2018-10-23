@@ -66,11 +66,11 @@ sudo service mongod start
 **Data:**  
 ```
 { 
-  'timestamp'
-  'value'  
-  'username'
-  'uid' 
-  'songid'
+  'timestamp'   (string)
+  'value'       (int)
+  'username'    (string)
+  'uid'         (string)
+  'songid'      (int)
 }
 ```
 
